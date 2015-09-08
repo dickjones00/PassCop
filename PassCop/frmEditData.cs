@@ -14,10 +14,10 @@ using System.Windows.Forms;
 
 namespace PassCop
 {
-    public partial class EditData : Form
+    public partial class frmEditData : Form
     {
         private int id = -1;
-        public EditData()
+        public frmEditData()
         {
             InitializeComponent();
             GetAllDbItems.RefreshGrid(grdData);
@@ -26,14 +26,14 @@ namespace PassCop
         private void btnAdd_Click(object sender, EventArgs e)
         {
             id = -1;
-            var upForm = new Data(id);
+            var upForm = new frmData(id);
             upForm.ShowDialog();
             GetAllDbItems.RefreshGrid(grdData);
         }
 
         private void btnEdit_Click(object sender, EventArgs e)
         {
-            var upForm = new Data(id);
+            var upForm = new frmData(id);
             upForm.ShowDialog();
             GetAllDbItems.RefreshGrid(grdData);
         }

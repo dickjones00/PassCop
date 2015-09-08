@@ -11,9 +11,9 @@ using System.Windows.Forms;
 
 namespace PassCop
 {
-    public partial class PassCop : Form
+    public partial class frmPassCop : Form
     {
-        public PassCop()
+        public frmPassCop()
         {
             InitializeComponent();
             this.Visible = false;
@@ -22,8 +22,9 @@ namespace PassCop
         private void addPasswordToolStripMenuItem_Click(object sender, EventArgs e)
         {
             contextMenuStrip1.Enabled = false;
-            var upForm = new Data(-1);
+            var upForm = new frmData(-1);
             upForm.ShowDialog();
+            DisablePasswordItems();
             contextMenuStrip1.Enabled = true;
         }
 
@@ -67,19 +68,24 @@ namespace PassCop
 
         private void toolStripMenuItem1_Click(object sender, EventArgs e)
         {
-            var upForm = new EditData();
+            var upForm = new frmEditData();
             contextMenuStrip1.Enabled = false;
             upForm.ShowDialog();
+            DisablePasswordItems();
+            contextMenuStrip1.Enabled = true;
+        }
+
+        private void DisablePasswordItems()
+        {
             foreach (ToolStripItem item in tsmPasswords.DropDownItems)
             {
                 if (item is ToolStripSeparator)
                     continue;
                 if (item.Text != "Refresh")
-                item.Enabled = false;
+                    item.Enabled = false;
                 if (item.Text == "Refresh")
                     item.Text = "--> Please refresh! <--";
             }
-            contextMenuStrip1.Enabled = true;
         }
 
         private void tsmInfo_Click(object sender, EventArgs e)

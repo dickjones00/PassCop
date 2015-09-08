@@ -1,6 +1,6 @@
 ﻿namespace PassCop
 {
-    partial class Data
+    partial class frmData
     {
         /// <summary>
         /// Required designer variable.
@@ -65,6 +65,7 @@
             // 
             this.txtPassword.Location = new System.Drawing.Point(95, 38);
             this.txtPassword.Name = "txtPassword";
+            this.txtPassword.PasswordChar = '*';
             this.txtPassword.Size = new System.Drawing.Size(177, 20);
             this.txtPassword.TabIndex = 20;
             // 
@@ -89,7 +90,7 @@
             this.btnCancel.UseVisualStyleBackColor = true;
             this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
             // 
-            // Data
+            // frmData
             // 
             this.AcceptButton = this.btnOk;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -104,7 +105,7 @@
             this.Controls.Add(this.txtName);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
-            this.Name = "Data";
+            this.Name = "frmData";
             this.ShowIcon = false;
             this.ShowInTaskbar = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

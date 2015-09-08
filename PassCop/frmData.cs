@@ -14,10 +14,10 @@ using System.Windows.Forms;
 
 namespace PassCop
 {
-    public partial class Data : Form
+    public partial class frmData : Form
     {
         private int id = -1;
-        public Data(int Id)
+        public frmData(int Id)
         {
             InitializeComponent();
             id = Id;

@@ -5,11 +5,11 @@ D:\CustomProjects\PassCop\PassCop\bin\Debug\EntityFramework.dll
 D:\CustomProjects\PassCop\PassCop\bin\Debug\EntityFramework.SqlServer.dll
 D:\CustomProjects\PassCop\PassCop\bin\Debug\EntityFramework.xml
 D:\CustomProjects\PassCop\PassCop\bin\Debug\EntityFramework.SqlServer.xml
-D:\CustomProjects\PassCop\PassCop\obj\Debug\PassCop.Data.resources
-D:\CustomProjects\PassCop\PassCop\obj\Debug\PassCop.EditData.resources
-D:\CustomProjects\PassCop\PassCop\obj\Debug\PassCop.PassCop.resources
 D:\CustomProjects\PassCop\PassCop\obj\Debug\PassCop.Properties.Resources.resources
 D:\CustomProjects\PassCop\PassCop\obj\Debug\PassCop.csproj.GenerateResource.Cache
 D:\CustomProjects\PassCop\PassCop\obj\Debug\PassCop.exe
 D:\CustomProjects\PassCop\PassCop\obj\Debug\PassCop.pdb
 D:\CustomProjects\PassCop\PassCop\obj\Debug\PassCop.csprojResolveAssemblyReference.cache
+D:\CustomProjects\PassCop\PassCop\obj\Debug\PassCop.frmData.resources
+D:\CustomProjects\PassCop\PassCop\obj\Debug\PassCop.frmEditData.resources
+D:\CustomProjects\PassCop\PassCop\obj\Debug\PassCop.frmPassCop.resources

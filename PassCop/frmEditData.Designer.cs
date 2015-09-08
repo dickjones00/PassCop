@@ -2,7 +2,7 @@
 
 namespace PassCop
 {
-    partial class EditData
+    partial class frmEditData
     {
         /// <summary>
         /// Required designer variable.
@@ -50,8 +50,8 @@ namespace PassCop
             // grdData
             // 
             this.grdData.AllowUserToAddRows = false;
-            this.grdData.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
+            this.grdData.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            | System.Windows.Forms.AnchorStyles.Left)
             | System.Windows.Forms.AnchorStyles.Right)));
             this.grdData.AutoGenerateColumns = false;
             this.grdData.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
